@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
 body {
     background-color: #f1f1f1;
     color: #0f141e;
@@ -26,7 +32,26 @@ a:visited {
 }
 
 .info {
+    display: flex;
     margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    .avatar {
+        margin: auto;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
 }
 
 .avatar {
@@ -50,6 +75,7 @@ a:visited {
 /* Box model */
 
 .container {
+    padding-top: 30px;
     max-width: 750px;
     margin: auto;
 }
@@ -82,4 +108,75 @@ a:visited {
 
 .card h2 {
     margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #86898f;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px #ccc solid;
+    padding: 15px 0 10px;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-family: inherit;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row>.form-group {
+    width: 50%;
+}
+
+.row>.form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: black;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.85;
 }
