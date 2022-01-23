@@ -8,92 +8,96 @@
 </head>
 
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td> <img src="https://sun9-32.userapi.com/impg/Ue8JaVBWyVb3N9K4wjYDpIWYKJ5nlRMno4lj4Q/Xg83vnh3oos.jpg?size=1620x2160&quality=96&sign=7445b9707558167eb70b990a1d4bf949&type=album" alt="Avatarka" width="200"></td>
-            <td>
-                <h1>Anton Filippovich</h1>
+    <div class="container">
 
-                <p><em>I'm a student of Belarusian State University of Informatics and Radioelectronics <strong>(BSUIR)</strong></em></p>
-                <p>I'm really fond of coding and taking photos</p>
-            </td>
-        </tr>
-    </table>
+        <div class="info">
+            <img src="https://sun9-32.userapi.com/impg/Ue8JaVBWyVb3N9K4wjYDpIWYKJ5nlRMno4lj4Q/Xg83vnh3oos.jpg?size=1620x2160&quality=96&sign=7445b9707558167eb70b990a1d4bf949&type=album" alt="avatar" class="avatar"></td>
 
-    <hr>
+            <h1>Anton Filippovich</h1>
 
-    <h2>My social networks</h2>
-    <ul type='square'>
-        <li><a href="https://instagram.com/antonfilka_photo" target='_blank'>Instagram</a></li>
-        <li><a href="https://vk.com/antonfilka" target='_blank'>Vk</a></li>
-        <li><a href="https://t.me/antonfilka_photo" target='_blank'>Telegram</a></li>
-    </ul>
-    <hr>
-    <h2>My hobbies</h2>
-    <ol type='1'>
-        <li>Coding</li>
-        <li>Photography</li>
-        <li>Videography</li>
-        <li>Music</li>
-        <li>Travelling</li>
-    </ol>
-    <hr>
+            <p>I'm a student of Belarusian State University of Informatics and Radioelectronics <strong>(BSUIR)</strong></p>
+            <p>I'm really fond of coding and taking photos</p>
+
+            <h4>My social networks</h4>
+
+            <a href="https://instagram.com/antonfilka_photo" target='_blank'>Instagram</a> |
+            <a href="https://vk.com/antonfilka" target='_blank'>Vk</a> |
+            <a href="https://t.me/antonfilka_photo" target='_blank'>Telegram</a>
+
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>My hobbies</h2>
+            <ol type='1'>
+                <li>Coding</li>
+                <li>Photography</li>
+                <li>Videography</li>
+                <li>Music</li>
+                <li>Travelling</li>
+            </ol>
+        </div>
 
 
-    <h2>Work Experience</h2>
-    <table border='6'>
-        <thead>
-            <tr>
-                <th>Company</th>
-                <th>Job</th>
-                <th>Years</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>MSRL</td>
-                <td>Student</td>
-                <td>2017-2020</td>
-            </tr>
-            <tr>
-                <td>BSUIR</td>
-                <td>Student</td>
-                <td>2020-2024</td>
-            </tr>
-            <tr>
-                <td>IBA</td>
-                <td>Internship</td>
-                <td>2020-2021</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>
+        <div class="card bg-green">
+            <h2>Work Experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Job</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MSRL</td>
+                        <td>Student</td>
+                        <td>2017-2020</td>
+                    </tr>
+                    <tr>
+                        <td>BSUIR</td>
+                        <td>Student</td>
+                        <td>2020-2024</td>
+                    </tr>
+                    <tr>
+                        <td>IBA</td>
+                        <td>Internship</td>
+                        <td>2020-2021</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
 
+        <div class="card bg-red">
+            <h2>Gallery</h2>
+        </div>
 
-    </table>
-    <hr>
-    <h2>Connect with me</h2>
+        <div class="connect">
+            <h2>Connect with me</h2>
+            <form action="/">
+                <label for="name">Your name: </label>
+                <input type="text" id="name" placeholder="Start entering name">
 
-    <form action="/">
-        <label for="name">Your name: </label>
-        <input type="text" id="name" placeholder="Start entering name">
+                <br>
 
-        <br>
+                <label for="email">Your email: </label>
+                <input type="email" id="email" placeholder="Start entering email">
+                <br>
 
-        <label for="email">Your email: </label>
-        <input type="email" id="email" placeholder="Start entering email">
-        <br>
+                <label for="text">Your message: </label> <br>
+                <textarea name="" id="text" cols="30" rows="5"></textarea>
 
-        <label for="text">Your message: </label> <br>
-        <textarea name="" id="text" cols="30" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Connect">
+            </form>
+        </div>
 
-        <br>
-        <input type="submit" value="Connect">
-
-    </form>
-    <!-- <hr>
+        <!-- <hr>
     <h2>YouTube</h2>
     <a href="YouTube.html">Watch videos</a> -->
 
+    </div>
 </body>
 
 </html>

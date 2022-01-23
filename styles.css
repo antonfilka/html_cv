@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    background-color: aquamarine;
+    background-color: #f1f1f1;
+    color: #0f141e;
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: none; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+
+
+/* Box model */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.social {
+    background: green;
+    padding: 5px;
+    border: 5px solid red;
+    margin: 5px;
+    border-bottom-style: double;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
 }
